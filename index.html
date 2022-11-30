@@ -20,11 +20,26 @@
     <!-- Nosso CSS -->
     <link rel="stylesheet" href="./assets/css/global.css">
     <link rel="stylesheet" href="./assets/css/pokedex.css">
+
+    <!-- carrega biblioteca para o menu hamburger -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-    <section class="content">
+
+    <!-- TOPBAR -->
+    <div class="topnav">
         <h1>Pokedex</h1>
+        <div id="links">
+            <a href="#favoritos">Favoritos</a>
+          </div>
+        <!-- "Hamburger menu" -->
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerButton()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <section class="content">
 
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
@@ -38,6 +53,7 @@
     </section>
 
     <!-- Nosso JS -->
+    <script src="./assets/js/button-hamburger.js"></script>
     <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/main.js"></script>

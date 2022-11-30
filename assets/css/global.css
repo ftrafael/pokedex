@@ -1,6 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body{
@@ -8,10 +9,13 @@ body{
 }
 
 .content {
+    display: contents;
+    border-color: red;
     width: 100vh;
     height: 100vh;
     padding: 1rem;
     background-color: white;
+    margin: 0px 40px 0px 40px
 }
 
 @media screen and (max-width: 992px) {

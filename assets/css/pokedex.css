@@ -1,3 +1,4 @@
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -144,16 +145,22 @@
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
-
 }
 
 @media screen and (min-width: 330px) {
     .pokemons {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
+        margin: 0px 40px 0px 40px
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 430px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+@media screen and (min-width: 635px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -163,4 +170,63 @@
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+}
+
+@media screen and (min-width: 1240px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px 80px 0px 80px
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: block;
+    }
+}
+
+/* menu navegação */
+.topnav {
+    position: relative;
+}
+
+.topnav h1 {
+    margin: 25px 0px 0px 15px;
+}
+
+/* oculta o link no menu */
+.topnav #links {
+  display: none;
+}
+
+/* menu de navegação */
+.topnav a {
+  background-color: #333;
+  color: white;
+  padding: 8.5px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* menu hamburger */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* adiciona o fundo cinza ao passar o mouse */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* link ativo */
+.active {
+  background-color: #04AA6D;
+  color: white;
 }

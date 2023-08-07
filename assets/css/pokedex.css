@@ -150,35 +150,35 @@
 @media screen and (min-width: 330px) {
     .pokemons {
         grid-template-columns: 1fr ;
-        margin: 0px 80px 0px 80px
+        margin: 0px 50px 0px 50px
     }
 }
 
 @media screen and (min-width: 500px) {
     .pokemons {
         grid-template-columns: 1fr 1fr ;
-        margin: 0px 80px 0px 80px
+        margin: 0px 50px 0px 50px
     }
 }
 
 @media screen and (min-width: 635px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 0px 80px 0px 80px
+        margin: 0px 50px 0px 50px
     }
 }
 
 @media screen and (min-width: 992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0px 80px 0px 80px
+        margin: 0px 50px 0px 50px
     }
 }
 
 @media screen and (min-width: 1240px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0px 80px 0px 80px
+        margin: 0px 50px 0px 50px
     }
 }
 
@@ -195,7 +195,7 @@
 }
 
 .topnav h1 {
-    margin: 25px 0px 0px 90px;
+    margin: 25px 0px 0px 60px;
 }
 
 /* oculta o link no menu */
@@ -205,8 +205,8 @@
 
 /* menu de navegação */
 .topnav a {
-  margin-right: 90px;
-  margin-left: 90px;
+  margin-right: 60px;
+  margin-left: 60px;
   background-color: #333;
   color: white;
   padding: 8.5px 16px;

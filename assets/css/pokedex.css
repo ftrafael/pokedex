@@ -124,7 +124,7 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    max-width: 85%;
     height: 70px;
 }
 
@@ -147,7 +147,7 @@
     border-radius: 1rem;
 }
 
-@media screen and (min-width: 330px) {
+@media screen and (min-width: 200px) {
     .pokemons {
         grid-template-columns: 1fr ;
         margin: 0px 50px 0px 50px
@@ -207,8 +207,8 @@
 .topnav a {
   margin-right: 60px;
   margin-left: 60px;
-  background-color: #333;
-  color: white;
+  background-color: rgb(218, 216, 216);
+  color: black;
   padding: 8.5px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -217,7 +217,8 @@
 
 /* menu hamburger */
 .topnav a.icon {
-  background: black;
+  background:transparent;
+  color: black;
   display: block;
   position: absolute;
   right: 0;
@@ -226,7 +227,7 @@
 
 /* adiciona o fundo cinza ao passar o mouse */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(218, 216, 216);
   color: black;
 }
 
